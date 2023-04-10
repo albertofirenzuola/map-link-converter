@@ -43,7 +43,7 @@ jobs:
   
       - name: Test
         run: |
-          npm run test -- --configuration --production
+          npm run test -- --configuration production
 
       - name: Conventional Changelog Action
         id: changelog
